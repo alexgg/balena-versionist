@@ -1,4 +1,16 @@
 - commits:
+    - subject: Bump versionist to 6.7.0
+      hash: c857a3d7a89f5fa29cd3e3207a99e4cc1c141540
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stathis Moraitidis <stathis@balena.io>
+        signed-off-by: Stathis Moraitidis <stathis@balena.io>
+      author: stathismor
+  version: 0.14.1
+  date: 2022-01-21T12:50:58.369Z
+- commits:
     - subject: Pass title info to versionist
       hash: e771d38a469fd9720704e966ef558120a782e7c8
       body: |
@@ -40,7 +52,7 @@
   version: 0.13.10
   date: 2022-01-20T15:29:39.447Z
 - commits:
-    - subject: 'yocto-based-OS-image: Fix empty check on object type'
+    - subject: "yocto-based-OS-image: Fix empty check on object type"
       hash: 00483bf6b4d3871a276b58949b2c6354f16e5595
       body: |
         As parsedCurrentVersion.build is of object type the current check is
@@ -54,7 +66,7 @@
   version: 0.13.9
   date: 2021-12-01T12:53:20.512Z
 - commits:
-    - subject: 'yocto-based-OS-image: Update balena.yml to match repository version'
+    - subject: "yocto-based-OS-image: Update balena.yml to match repository version"
       hash: 801cdd3cdab4c13cb65b812ccb19dab2301e5e26
       body: >
         The version is the balena.yml file will be used by the API to version
@@ -67,13 +79,12 @@
         Signed-off-by: Alex Gonzalez <alexg@balena.io>
         signed-off-by: Alex Gonzalez <alexg@balena.io>
       author: Alex Gonzalez
-    - subject: 'yocto-based-OS-image: Modify to match fleet versioning'
+    - subject: "yocto-based-OS-image: Modify to match fleet versioning"
       hash: 67523817f249e94cb645a8ab44f9ddc37970b989
       body: >
         When releasing into a fleet a version specified in a contract,
 
-        the initial commit is M.m.p (+rev0 is omitted) and subsequent commits
-        are of
+        the initial commit is M.m.p (+rev0 is omitted) and subsequent commits are of
 
         the form M.m.p+revN where N starts at 1, as long as the contract version
 
@@ -134,7 +145,7 @@
 - commits:
     - subject: Bump balena versionist to 6.6.0
       hash: b2aadf0862766326bba30a425d0f60b47a8ec25d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -146,7 +157,7 @@
 - commits:
     - subject: Allow revisions of 2 or more digits for yocto-based-OS-image
       hash: 5a213ff4d38fc367f215d6a1929c4ce6b5ae2a9b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -172,7 +183,7 @@
 - commits:
     - subject: Add nested changelogs for all repo types
       hash: e86525fa0f788415dfe13c5bd4dfcc0d372505a5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -184,7 +195,7 @@
 - commits:
     - subject: Remove changelog-entry preset from electron projects
       hash: 21c18c76a4ef15eec480ae2fcd5105d1ae674204
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -193,7 +204,7 @@
       author: nazrhom
     - subject: Update dependencies
       hash: afed1d5d405c9a5a38c27d24812a60560632141a
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -203,7 +214,7 @@
 - commits:
     - subject: Add TS declaration file
       hash: 7415547fc81b1adb84328d912fe09f7bfcf20722
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -245,7 +256,7 @@
 - commits:
     - subject: Make sure balena-engine can be properly versioned
       hash: 7c2a502d6c7a3a5c3d046495a2b38a9d9fa1fedf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -257,7 +268,7 @@
 - commits:
     - subject: Prevent balena-engine versions from being sanitized
       hash: 17de29312a625813a87d05ffd905d4925e740c87
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -269,7 +280,7 @@
 - commits:
     - subject: Add project remap from 'balena' to 'generic'
       hash: ca3e5af0de4ef376448cc17c01eba3e73f2c8eab
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -281,7 +292,7 @@
 - commits:
     - subject: Version node-cli projects as node ones
       hash: 2f8cec334e2bd77faaf6a8225c3bfa9a681fbf59
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -293,7 +304,7 @@
 - commits:
     - subject: Add hardware to generic remap
       hash: 030503bf4673069f556cafc27570bfc6f24919bc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -305,7 +316,7 @@
 - commits:
     - subject: Add debug option to log versionist output
       hash: d0f5b4e3e7fb7e9e298d0ec4074019ff39dbb365
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -325,17 +336,17 @@
 
         - [Commits](https://github.com/lodash/lodash/compare/4.17.11...4.17.13)
       footer:
-        Signed-off-by: 'dependabot[bot] <support@github.com>'
-        signed-off-by: 'dependabot[bot] <support@github.com>'
+        Signed-off-by: dependabot[bot] <support@github.com>
+        signed-off-by: dependabot[bot] <support@github.com>
         Change-type: patch
         change-type: patch
-      author: 'dependabot[bot]'
+      author: dependabot[bot]
   version: 0.11.2
   date: 2019-09-06T12:29:27.345Z
 - commits:
     - subject: Add build-in-container type which maps to generic
       hash: 00d89894e47b95063a9b5ce944c3614a41400eef
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -347,7 +358,7 @@
 - commits:
     - subject: Add balena-engine type to be treated as generic
       hash: db7a796ff46e5b3cf4aea587e91d68ef7c31f747
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -359,7 +370,7 @@
 - commits:
     - subject: Default options to empty
       hash: d60dca6285f8a09856215dc9d23f82614580ae63
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -371,7 +382,7 @@
 - commits:
     - subject: Update semver to balena-semver
       hash: 318593892df40601d2d215961d3454feef2bda84
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -380,7 +391,7 @@
       author: Giovanni Garufi
     - subject: Add the possibility to forward options to versionist
       hash: 3222e78c91545d05e2ce566d73b0ed8eecff2a54
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -389,7 +400,7 @@
       author: Giovanni Garufi
     - subject: Update versionist to new major version
       hash: 31b1cb69dc08befb75601a0c6957862409ba15c6
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -401,7 +412,7 @@
 - commits:
     - subject: Fix typo
       hash: f13a32978bb55b909bb2763a5df74de7286d04ed
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -413,7 +424,7 @@
 - commits:
     - subject: Update js-yaml for security reasons and remove unused deps
       hash: d39836a70177d1902510cfc2032bb3374da76379
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -423,9 +434,9 @@
   version: 0.9.3
   date: 2019-06-14T13:49:28.304Z
 - commits:
-    - subject: 'Follow up yocto layer rename: resin > balena'
+    - subject: "Follow up yocto layer rename: resin > balena"
       hash: 5cb90315e58cb92e5bf2472e131b6df3f44ea6e1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -437,7 +448,7 @@
 - commits:
     - subject: Add nested-changelog preset to generic type
       hash: 627457c009d6be7f72cb6c848465a9ec8f01d98a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -446,7 +457,7 @@
       author: Giovanni Garufi
     - subject: Fix date in tests
       hash: d0535bf86e1062299b26b6a9cb22d7d8bf183c28
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -455,7 +466,7 @@
       author: Giovanni Garufi
     - subject: Add product type tests
       hash: 68d31819dd5ddc99262037381c197ed4b66cd2c5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -464,7 +475,7 @@
       author: Giovanni Garufi
     - subject: Set aliases for generic type
       hash: 72f806efaeaf3ec229269efbbb89caeb8aa2f26f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -476,7 +487,7 @@
 - commits:
     - subject: Introduce basic tests
       hash: 7f94f4d64eb1fff6d7618577d9778bc28c75c729
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -488,7 +499,7 @@
 - commits:
     - subject: Set updateVersion to mixed for type docker
       hash: 664854a85d5a6666f387a881cb17bc69c57f6493
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -500,7 +511,7 @@
 - commits:
     - subject: Update readme with new repo.yml fields
       hash: 2d6f42b66e6a2a3654426def4742b83f654546bc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -512,7 +523,7 @@
 - commits:
     - subject: Add docker repo type
       hash: ca02de9b1a42ddb6e6c3d20caf084f36451b4243
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -537,7 +548,7 @@
 - commits:
     - subject: Add codeowners
       hash: 453637640315cb087d1b11b5bdd0140d264a306d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -549,7 +560,7 @@
 - commits:
     - subject: Add electron type
       hash: 3617c9946aed9390f1fbe89a587c6f64b4330b2e
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -575,7 +586,7 @@
 - commits:
     - subject: Handle repo.yml with no repo.type
       hash: fbd579ebb1b615be32f2d9b523c13648d1d364b3
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -585,11 +596,10 @@
   version: 0.4.0
   date: 2019-03-04T10:25:59.757Z
 - commits:
-    - subject: >-
-        yocto-based-OS-image: Accept both meta-resin and meta-balena as valid
-        sublayers
+    - subject: "yocto-based-OS-image: Accept both meta-resin and meta-balena as valid
+        sublayers"
       hash: ed74d9acbf7be94432406965652e10e011708f6e
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -601,7 +611,7 @@
 - commits:
     - subject: Add node type
       hash: c801962316306a6da12ade35585d0dd5e0df1928
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -613,7 +623,7 @@
 - commits:
     - subject: Drop extra v prefix from meta-balena version
       hash: 5afa7322f9e89f93282c1b2f9079d83489bc6491
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -623,7 +633,7 @@
   version: 0.1.3
   date: 2019-01-17T11:36:40.245Z
 - commits:
-    - subject: 'yocto-based-OS-image: Update versionist.conf'
+    - subject: "yocto-based-OS-image: Update versionist.conf"
       hash: 6336549adaac50f6eee5d7c86bd6b61126f1e806
       body: |
         Ensure the correct meta-balena version is obtained even if it is tagged
@@ -639,7 +649,7 @@
 - commits:
     - subject: Assume standard changelog for generic type
       hash: 8175b1d767ed45a85011cc03fd64f76a3b764b24
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -649,9 +659,9 @@
   version: 0.1.1
   date: 2018-11-07T13:45:15.122Z
 - commits:
-    - subject: 'mappings: add rust support'
+    - subject: "mappings: add rust support"
       hash: 2acbd9e664e848126f2e0cea91480190ca3ce484
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -663,7 +673,7 @@
 - commits:
     - subject: Add docs
       hash: bbf51b84c027da917ff2b668d3fca3f3892292bb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -675,7 +685,7 @@
 - commits:
     - subject: refactor and add cli option
       hash: 3bbfca5df9e9d2a818230c30feed331624e649f5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -687,7 +697,7 @@
 - commits:
     - subject: Fix changelog format
       hash: d78aca80b956d53194cb3e0daa4eb04173118a6a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
