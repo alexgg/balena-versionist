@@ -1,5 +1,5 @@
 {
-  "name": "balena-versionist",
+  "name": "ag-balena-versionist",
   "version": "0.14.2",
   "description": "",
   "main": "lib/index.js",
@@ -22,7 +22,7 @@
     "shelljs": "^0.8.4"
   },
   "devDependencies": {
-    "versionist": "^6.7.0"
+    "ag-versionist": "^1.0.1"
   },
   "types": "lib/index.d.ts",
   "versionist": {
